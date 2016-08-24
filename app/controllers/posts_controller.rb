@@ -4,6 +4,7 @@ class PostsController < ApplicationController
 	end
 
 	def show
+		# binding.byebug
 		@post = Post.find(params[:id])
 	end
 
